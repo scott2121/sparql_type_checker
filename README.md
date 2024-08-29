@@ -1,6 +1,8 @@
 # My SPARQL Checker
 
-This is a Python package for checking SPARQL queries against ShEx schemas. It provides a command-line tool named `type_check_sparql` to perform the checks.
+This is a Python package for checking SPARQL queries against ShEx schemas. It provides a command-line tool and function named `type_check_sparql` to perform the checks.
+
+
 
 ## Installation
 
@@ -88,3 +90,20 @@ print("----------" * 10)
 result = type_check_sparql(test_query_true, path_to_shex, False)
 print("test_query_true:\n", result)
 ```
+
+## Interpreting the Results
+
+The `type_check_sparql` function returns a dictionary containing information about the correctness of the query:
+
+* `correct_query`: `True` if the query is correct, `False` if there are errors.
+* `error_variables`: A list of variables where errors were detected.
+* `all_vars`: A set of all variables used in the query.
+
+For example:
+
+```python
+test_query_false:
+ {'correct_query': False, 'error_variables': ['uniprot_pdb', 'UniProt'], 'all_vars': {'y', 'uniprot_pdb', 'UniProt', 'x', 'UniProt__class'}}
+
+test_query_true:
+ {'correct_query': True, 'error_variables': [], 'all_vars': {'uniprot_gene_name', 'UniProt', 'uniprot_orf_name', 'UniProt__class'}}
