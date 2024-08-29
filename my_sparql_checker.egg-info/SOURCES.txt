@@ -5,6 +5,7 @@ my_sparql_checker.egg-info/PKG-INFO
 my_sparql_checker.egg-info/SOURCES.txt
 my_sparql_checker.egg-info/dependency_links.txt
 my_sparql_checker.egg-info/entry_points.txt
+my_sparql_checker.egg-info/requires.txt
 my_sparql_checker.egg-info/top_level.txt
 sparql_type_check_tools/__init__.py
 sparql_type_check_tools/main.py

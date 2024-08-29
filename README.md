@@ -20,6 +20,7 @@ Now this tool checks the format with tripple. So mistakes of checking may be occ
     ```bash
     pip install .
     ```
+PyShEx>=0.8.1, rdflib>=7.0.0 would be also installed automatically.
 
 ## Usage
 

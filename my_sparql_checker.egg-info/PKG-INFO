@@ -4,3 +4,5 @@ Version: 0.1.0
 Home-page: https://github.com/scott2121/sparql_type_checker
 Author: Hikaru Nagazumi
 Author-email: max.hikaru@fuji.waseda.jp
+Requires-Dist: PyShEx>=0.8.1
+Requires-Dist: rdflib>=7.0.0
