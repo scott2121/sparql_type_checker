@@ -10,10 +10,7 @@ setup(
             "type_check_sparql=sparql_type_check_tools.main:main",
         ],
     },
-    package_data={
-        'my_sparql_checker': ['.env'],  # パッケージ名: ファイルのリスト
-    },
     author="Hikaru Nagazumi",
     author_email="max.hikaru@fuji.waseda.jp",
-    url="https://github.com/yourusername/my_sparql_checker",  # リポジトリがある場合
+    url="https://github.com/scott2121/sparql_type_checker",  # リポジトリがある場合
 )
