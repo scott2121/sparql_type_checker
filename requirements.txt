@@ -1,2 +1,3 @@
 PyShEx>=0.8.1
 rdflib>=7.0.0
+python-dotenv>=1.0.0
