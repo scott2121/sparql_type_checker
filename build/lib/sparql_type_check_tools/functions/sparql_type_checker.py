@@ -139,7 +139,7 @@ def validate_sparql(variables, sparql_triples, shex_triples, verbose):
     return candidate_shex_save
 
 
-def type_check_sparql(database_name, query, path_to_shex, verbose=False):
+def type_check_sparql(query, path_to_shex, verbose=False):
     """
     Type check a SPARQL query against a ShEx schema.
     """
