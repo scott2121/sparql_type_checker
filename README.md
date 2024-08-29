@@ -1,6 +1,9 @@
-# My SPARQL Checker
+# SPARQL Type Checker
 
 This is a Python package for checking SPARQL queries against ShEx schemas. It provides a command-line tool and function named `type_check_sparql` to perform the checks.
+
+I hope this tool can check SPARQL queries are badly formatted or collectly formatted.
+Now this tool checks the format with tripple. So mistakes of checking may be occured especially when the query has long variables or complex format.
 
 
 
