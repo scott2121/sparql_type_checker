@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+my_sparql_checker.egg-info/PKG-INFO
+my_sparql_checker.egg-info/SOURCES.txt
+my_sparql_checker.egg-info/dependency_links.txt
+my_sparql_checker.egg-info/entry_points.txt
+my_sparql_checker.egg-info/top_level.txt
+sparql_type_check_tools/__init__.py
+sparql_type_check_tools/main.py
+sparql_type_check_tools/functions/__init__.py
+sparql_type_check_tools/functions/shex_extracter.py
+sparql_type_check_tools/functions/sparql_extractor.py
+sparql_type_check_tools/functions/sparql_type_checker.py

@@ -1,0 +1,2 @@
+[console_scripts]
+type_check_sparql = sparql_type_check_tools.main:main
